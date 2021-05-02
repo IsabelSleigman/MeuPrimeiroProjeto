@@ -1,0 +1,11 @@
+button {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: darkslategrey ;
+    color: #fff;
+}
+.title {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}

@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-title> Deletar Cadastro</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [value]="client.name" name="name" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="date" placeholder="Data de Nascimento" [value]="client.dateB" name="detaB" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CPF" [value]="client.cpf" name="cpf" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="E-mail" [value]="client.email" name="email" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Telefone" [value]="client.phone" name="phone" disabled>
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="deleteClient()" color="warn">
+        Deletar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+
+</mat-card>

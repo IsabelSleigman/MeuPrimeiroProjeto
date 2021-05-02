@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+}
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header i {
+    padding-right: 10px;
+    
+}
